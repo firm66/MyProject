@@ -1,0 +1,33 @@
+#wrap_12{
+    height:680px; 
+    padding:10px;
+}
+img{
+    display: block;
+}
+#wrap_12 h4{
+    text-align: center;
+}
+#wrap_12 hr{
+    width:800px;
+    margin:auto;/*居中*/
+    border:1px solid gray;
+    margin-bottom: 5px;
+}
+#wrap_12 table{
+/*    padding-top:10px;*/
+    margin:auto;/*居中*/
+    width:800px;
+    height:270px;/**/
+/*    border:1px solid #6a7;*/
+    border-collapse:collapse;
+}
+#wrap_12 table th{
+    border:1px solid #6a7;
+    font-weight: 400;
+}
+#wrap_12 table td{
+    border:1px solid #6a7;
+}
+
+

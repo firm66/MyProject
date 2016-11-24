@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>预报到系统</title>
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body onload="createCode()">  <!--页面加载出来就出现验证码-->
+    <div id="wrap">
+    <div id="login">
+         <form action="#" method="post" onsubmit="checkForm(this)">
+        <table cellpadding="0" cellspacing="18">
+            <tr>
+                <td class="word">身份证号:</td>
+                <td><input type="text" name="identity" onblur="checkIdentity(this)"></td>
+                <div  class="errorinfo" id="identitydiv">请输入正确的身份证号!</div>
+            </tr>
+            <tr>
+                <td class="word">姓&nbsp;名:</td>
+                <td> <input type="text" name="user" onblur="checkUser(this)"></td>
+                <div  class="errorinfo2" id="userdiv">请输入真实的姓名!</div>
+            </tr>
+            <tr>
+            <td class="word">验证码:</td><!--数字加字母验证码-->
+            <td>
+           <input type="text" name="authcode" class="authcode" maxlength="4"   onblur="checkAuthcode(this)">
+           <input type="text" onclick="createCode()" readonly="readonly" id="checkCode" class="unchanged" style="width:60px"  alt="验证码" title="看不清,点击换一张">
+            <div class="errorinfo3" id="authcodediv">请输入正确的验证码!</div>
+                </td>
+            </tr>
+            <tr style="colspan:2">
+                <td><input type="submit" id="loginto" value="登录"></td> 
+                <td><input type="reset" value="重置"></td>     
+            </tr>
+        </table>
+    </form>
+    </div>
+        
+    </div>
+    <footer>
+        安阳工学院&nbsp;信息中心&nbsp;Copyright&copy;2016-2020&nbsp;豫ICP备10003654
+    </footer>
+</body>
+</html>

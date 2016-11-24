@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查看课程</title>
+   <style type="text/css">
+       #wrap_12{
+       padding:10px;
+       min-height:680px;
+       height:auto;
+       }
+       select{
+           height:24px;
+       } 
+       #wrap_12_top{
+           text-align: center;
+       }
+       #courseResult{
+           width:80%;
+           margin:auto;
+           height:600px;
+       }
+    </style>
+</head>
+<body>
+   <div id="wrap_12">
+   <div id="wrap_12_top">
+    <select id="selid" onchange="selCourse()">
+        <option>--选择院系--</option>
+        <option value="机械工程学院">机械工程学院</option>
+        <option value="电子信息与电气工程学院">电子信息与电气工程学院</option>
+        <option value="计算机科学与信息工程学院">计算机科学与信息工程学院</option>
+        <option value="土木与建筑工程学院">土木与建筑工程学院</option>
+        <option value="化学与环境工程学院">化学与环境工程学院</option>
+        <option value="生物与食品工程学院">生物与食品工程学院</option>
+        <option value="数理学院">数理学院</option>
+        <option value="飞行学院">飞行学院</option>
+        <option value="经济管理学院">经济管理学院</option>
+        <option value="文法学院">文法学院</option>
+        <option value="外国语学院">外国语学院</option>
+        <option value="艺术设计学院">艺术设计学院</option>
+        <option value="国际教育学院">国际教育学院</option>
+    </select> 
+    
+    <select id="subselid">
+        <option>--选择专业--</option>
+    </select>
+      <button id="search">查询</button>
+       </div>
+       
+       <div id="courseResult">
+           
+       </div>
+    </div>  
+        <script type="text/javascript" src="js/jq-1.11.3.js"></script>
+     <script type="text/javascript" src="js/查看课程.js"></script>
+</body>
+</html>

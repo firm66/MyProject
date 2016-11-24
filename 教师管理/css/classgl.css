@@ -1,0 +1,29 @@
+
+.classgl{
+    float: left;
+    width: 780px;
+    height: auto;
+    padding: 50px 250px;
+    padding-bottom: 0px;
+    background: #3c95c8;
+}
+.classgl p{
+    color: 25px;
+}
+.info select{
+    width: 220px;
+    padding:6px 10px;
+    border:1px solid #DDD;
+}
+.classgl h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.classgl_data{
+    float: left;
+    margin-top: 0px;
+    width: 1280px;
+    height: 500px;
+    background: #3c95c8;
+}

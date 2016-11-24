@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="../css/table_0.css" rel="stylesheet">
+</head>
+<body >
+    <form action="  ">
+        <table class="table_0" style="margin:0 auto;">
+            
+        <tr>
+                <td class="td_1">报道方式：</td>
+                <td colspan="3">
+                    <!--<input type="radio" value=" "name="report">按时-->
+                    <input type="radio" value=" " name="report"  checked>请假
+                   <!-- <input type="radio" value=" " name="report">申请保留入学资格
+                    <input type="radio" value=" " name="report">放弃入学资格-->
+                </td>
+            </tr>
+            <tr>
+                <td class="td_1">报到时间：</td>
+                <td colspan="3">
+                    2016-09-<input type="text" id="reporttime" required>
+                    <span class="reportzhushi">请按xx格式（离：02）填写日期</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_1">请假原因：</td>
+                <td colspan="3">
+                <textarea cols="50" rows="5" id="qingjiareason" name="qingjiareason" required ></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_1">缴费方式：</td>
+                <td class="td_money">
+                    <input type="radio" value=" " name="jiaofei">灵通卡存款
+                    <input type="radio" value=" " name="jiaofei">"汇款直通车"方式汇款
+                    <input type="radio" value=" " name="jiaofei">电汇汇款
+                    <input type="radio" value=" " name="jiaofei">现场缴费
+                </td>
+                <td class="td_1">是否办理绿色通道：</td>
+                <td>
+                    <input type="checkbox" id="grennway" name="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input type="submit" value="确定提交" id="submit">
+                </td>
+
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

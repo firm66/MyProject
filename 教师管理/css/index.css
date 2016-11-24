@@ -1,0 +1,148 @@
+*{
+    border: 0px;
+    padding: 0px;
+}
+body{
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Microsoft YaHei';
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+li,ul{
+    list-style: none;
+}
+
+.header{
+    height: 100px;
+    background: #fff;
+}
+.logo{
+    float: left;
+    margin: 20px 5px;
+}
+.logo2{
+    float: left;
+    margin: 35px 5px;
+}
+
+.nav{
+    float:right;
+    height: 66px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.nav li{
+    float: left;
+    width: auto;
+    margin:-5px 20px;
+    padding:25px 0px;
+    color:  #787b83;
+    border-bottom: none;
+}
+
+.nav li a:link{
+    color: #787b83;
+}
+.nav li a:visited{
+    color:#787b83;
+}
+.nav li:hover{
+    border-bottom: 5px solid #3c95c8;
+} 
+
+.article{
+    position: relative;
+    display: block;
+    height: 718px;
+    margin: 0px;
+    background: url(../image/back3.jpg) no-repeat;
+}
+.box{
+    position: relative;
+    top: 230px;
+    left: 120px;
+}
+.p1{
+    float: left;
+    clear: both;
+    margin-bottom: -10px;
+    font-size: 55px;
+    margin-left: 0px;
+    color: #fff;
+}
+.p2{
+    float: left;
+    clear: both;
+    
+    font-size: 20px;
+    color: #fff;
+}
+
+.block{
+    float: left;
+    clear: both;
+    width: 300px;
+    height:45px;
+    background: #1b84bf;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-top: 40px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+.block a:link{
+    color: #fff;
+}
+.bolck a:visited{
+    color: #fff;
+}
+
+.footer{
+    float: left;
+    width: 1280px;
+    height: 150px;
+    background: #fff;
+    margin-top: 20px;
+    border-top: 5px solid #01538d;
+}
+.footer-p1{
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 10px;
+    color:#787b83;
+}
+.code{
+    margin-top: 10px;
+}
+.code1{
+    float: left;
+    margin-left: 500px;
+    height: 80px;
+    width: 80px;
+}
+.code2{
+    float: left;
+    margin-left: 15px;
+    height: 80px;
+    width: 80px;
+}
+.code3{
+    float: left;
+    margin-left: 15px;
+    height: 80px;
+    width: 80px;
+}
+
+
+
+

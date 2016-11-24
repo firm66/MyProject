@@ -1,0 +1,32 @@
+#wrap_00{
+    height:680px;
+     padding:10px;/*正好700px*/
+    line-height:34px;
+}
+#wrap_00 h1{
+    padding-top:15px;
+    margin-bottom:25px;
+    text-align:center;
+}
+#wrap_00 blockquote{
+    text-indent:30px;
+}
+#wrap_00 .article{
+    margin:10px;
+    font-size:20px;
+}
+#wrap_00 h5{
+    font-size:22px;
+    text-indent:35px;
+}
+
+
+
+
+
+
+
+
+
+
+

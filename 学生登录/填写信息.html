@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="css/table_0.css" rel="stylesheet">
+    <script type="text/javascript" src="js/ontime.js"></script>
+</head>
+<body>
+   <div id="warp_05">
+    <h3>填写个人信息</h3>
+    <form id="content" action="post" method="">
+        <table class="table_0" id="table_0">
+            <tr>
+                <td class="td_1">准考证号：</td>
+                <td class="td_3"><input type="text" name="stuno"  id="StuNo"></td>
+                <td class="td_1">性别：</td>
+                <td class="td_33">&nbsp;<input type="radio"  name="gender"  id="StuGender" value="man">男&nbsp;
+                  <input type="radio"  name="gender"  id="StuGender" value="woman">女
+                </td>
+            </tr>
+            <tr>
+                <td class="td_1">姓名：</td>
+                <td colspan="3"><input style="width:300px" type="text" name="stuname"  id="StuName"></td>
+            </tr>
+             <tr>
+                <td class="td_1">身份证号：</td>
+                <td class="td_2"><input type="text"  name="stuidentity"  id="StuIdentity"></td>
+                <td class="td_1">省份：</td>
+                <td class="td_2">
+                	                  <select name="province">
+                                    <option value="省份">--请选择省份--</option>
+                                    <option value="河北省">河北省</option>
+                                    <option value="山西省">山西省</option>
+                                    <option value="辽宁省">辽宁省</option>
+                                    <option value="吉林省">吉林省</option>
+                                    <option value="黑龙江省">黑龙江省</option>
+                                    <option value="江苏省">江苏省</option>
+                                    <option value="浙江省">浙江省</option>
+                                    <option value="安徽省">安徽省</option>
+                                    <option value="福建省">福建省</option>
+                                    <option value="江西省">江西省</option>
+                                    <option value="山东省">山东省</option>
+                                    <option value="河南省">河南省</option>
+                                    <option value="湖北省">湖北省</option>
+                                    <option value="湖南省">湖南省</option>
+                                    <option value="广东省">广东省</option>
+                                    <option value="海南省">海南省</option>
+                                    <option value="四川省">四川省</option>
+                                    <option value="贵州省">贵州省</option>
+                                    <option value="云南省">云南省</option>
+                                    <option value="陕西省">陕西省</option>
+                                    <option value="甘肃省">甘肃省</option>
+                                    <option value="青海省">青海省</option>
+                                    <option value="台湾省">台湾省</option>
+                                     <option value="北京市">北京市</option>
+                                    <option value="上海市">上海市</option>
+                                    <option value="天津市">天津市</option>
+                                    <option value="重庆市">重庆市</option>
+                                      <option value="新疆维吾尔自治区">新疆维吾尔自治区</option>
+                                    <option value="内蒙古自治区">内蒙古自治区</option>
+                                    <option value="宁夏回族自治区">宁夏回族自治区</option>
+                                    <option value="广西壮族自治区">广西壮族自治区</option>
+                                    <option value="西藏自治区">西藏自治区</option>
+                                    <option value="香港特别行政区">香港特别行政区</option>
+                                    <option value="澳门特别行政区">澳门特别行政区</option>
+                                </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_1">录取专业名称：</td>
+                <td class="td_2"><input type="text"  name="stumajor" id="Stumajor"></td>
+                <td class="td_1">层次：</td>
+                <td class="td_2"><input  type="text" name="gradation" id="gradation"></td>
+
+            </tr>
+            <tr>
+                <td class="td_1">联系电话</td>
+                <td class="td_2">
+                    <input type="text" id="tel" placeholder="请填写您的联系电话" value="" required> 
+                </td>
+                <td class="td_1">邮政编码：</td>
+                <td class="td_2">
+                    <input type="text" id="zipcode" placeholder="请填写邮政编码" value="" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_1">是否申请在家住宿：</td>
+                <td colspan="3">
+                    是
+                    <input type="radio" id="en" name="dog">&nbsp;否
+                    <input type="radio" id="en" name="dog">
+                    <span class="beizhu">
+                        备注：安阳市区的新生可申请在家住宿，非安阳市区新生请勾选“否”
+                    </span>
+                </td>
+
+            </tr>
+            <tr>
+                <td class="td_1">家庭住址：</td>
+                <td class="td_2">
+                    <input type="text" id="home" placeholder="请填写您的家庭住址" required>
+                </td>
+                <td class="td_4">就读地点：</td>
+                <td class="td_5">北校区</td>
+            </tr>
+            <tr>
+                <td class="td_1">报道方式：</td>
+                <td colspan="3">
+                    <input type="radio" value=" " name="report" onclick="openWindow()">按时
+                    <input type="radio" value=" " name="report" onclick="qingjia()">请假
+                    <input type="radio" value=" " name="report" onclick="wait()">申请保留入学资格
+                    <input type="radio" value=" " name="report" onclick="giveup()">放弃入学资格
+                </td>
+            </tr>
+            <tr>
+                <td class="td_1">缴费方式：</td>
+                <td class="td_money">
+                    <input type="radio" value=" " name="jiaofei">灵通卡汇款
+                    <input type="radio" value=" " name="jiaofei">直通车方式汇款
+                    <input type="radio" value=" " name="jiaofei">申汇汇款
+                    <input type="radio" value=" " name="jiaofei">现场缴费
+                </td>
+                <td class="td_1">是否办理绿色通道：</td>
+                <td>
+                    <input type="checkbox" id="grennway" onclick="greenway()">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input type="submit" value="确定提交" id="submit" onclick="submit()"><!--后台-->
+                </td>
+
+            </tr>
+        </table>
+        
+<!--<table class="table_1" style="margin:0 auto;" id="table_1">
+            
+            <tr>
+                <td class="td_1">报道方式：</td>
+                <td colspan="3">
+                    <input type="radio" value=" " name="report" onclick="openWindow()">按时
+                    <input type="radio" value=" " name="report">请假
+                    <input type="radio" value=" " name="report">申请保留入学资格
+                    <input type="radio" value=" " name="report">放弃入学资格
+                </td>
+            </tr>
+            <tr>
+                <td class="td_1">报到时间：</td>
+                <td colspan="3">
+                    2016-09-<input type="text" id="reporttime">
+                    <span class="reportzhushi">请按xx格式（离：02）填写日期</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_1">缴费方式：</td>
+                <td class="td_money">
+                    <input type="radio" value=" " name="report">灵通卡汇款
+                    <input type="radio" value=" " name="report">直通车方式汇款
+                    <input type="radio" value=" " name="report">申汇汇款
+                    <input type="radio" value=" " name="report">现场缴费
+                </td>
+                <td class="td_1">是否办理绿色通道：</td>
+                <td>
+                    <input type="checkbox" id="grennway">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input type="submit" value="确定提交" id="submit">
+                </td>
+
+            </tr>
+        </table>-->
+    </form>
+    </div>
+</body>
+</html>

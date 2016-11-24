@@ -1,0 +1,32 @@
+*{margin:0;padding:0;}
+body,h2,ul,h3{padding:0;margin:0;}
+ul{list-style:none outside none;}
+.timeline{position:relative;background:url("../images/line4.png") repeat-y 96px 0;height:100px;
+  width:800px;margin:7px auto 0 auto;}/*margin-top设置成12px，总高度是700px*/
+.timeline-date{position:relative;}
+.timeline-date h2{background:url("../images/icon9.png") no-repeat 66px 0;height:87px;margin-bottom:-5px;}
+.timeline-date h2 span{color:#999999;display:inline-block;font-size:26px;margin:20px 0px 0 150px;}
+.timeline-date ul li{background:url("../images/icon7.png") no-repeat 88px 2px;zoom:1;height:50px;} /*改变数字控制距离*/
+.timeline-date ul li:nth-child(4){
+    height:90px; /*控制高度间距*/
+}
+.timeline-date ul li:nth-child(5){
+    height:264px;
+}
+.timeline-date ul li:nth-child(6){
+    height:150px;
+}
+.timeline-date ul li h3{float:left;text-align:right;font-size:18px;color:#878787;display:block;}	
+.timeline-date ul li dl{margin-top:-5px;}
+.timeline-date ul li dl.right{background:url() no-repeat 0 0;float:left;margin-left:50px;margin-top:-4px;display:block;background-color:#FFBB42;height:40px;width:670px;}	
+.timeline-date ul li dl.three{ 
+    height:80px;
+    margin-left:30px;  /*控制黄色框的高度*/
+}
+.timeline-date ul li dl.four{ 
+    height:252px;
+}
+.timeline-date ul li dl.five{ 
+    height:154px;
+}
+.timeline-date ul li dl span{display:block;font-size:16px;padding:6px 10px 0px 10px;color:#fff;line-height:24px;}
